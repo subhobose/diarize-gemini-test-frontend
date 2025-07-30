@@ -67,7 +67,7 @@ recordBtn.addEventListener("click", async () => {
 
 async function requestDiarization(filePath) {
   try {
-    const response = await fetch('http://localhost:3000/diarize', {
+    const response = await fetch('https://diarize-gemini-test-backend.onrender.com/diarize', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ path: filePath }),
