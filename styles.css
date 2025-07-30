@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  padding: 2em;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+button {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+}
+audio {
+  margin-top: 1em;
+}
